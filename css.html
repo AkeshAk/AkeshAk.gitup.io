@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>css presentation</title>
+<style>
+body {
+    background-image: url('mountain.jpg');
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif Arial, Helvetica, sans-serif;
+    color: hotpink;
+    
+    font-weight: bold;
+    text-transform:capitalize;
+    text-decoration: none;
+    text-align:justify:
+    vertical-align: super;
+    letter-spacing:2px;
+    word-spacing: 50px;
+    background-attachment: fixed;
+}
+    
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(76, 76, 196);
+}
+ul{
+    font-size: 30px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: chocolate;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+   
+    
+}
+figcaption{
+    color: lawngreen;
+}
+.money {
+    width: 45%;
+    left: 50%;
+    bottom: 100px;
+    position: absolute;
+    z-index: 1;
+    position: fixed;
+}
+.money img{
+    width: 100%;
+    animation: money 1s linear infinite;
+}
+@keyframes money {
+    100%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateX(5px);
+    }
+    0%{
+        transform: translateY(-5px);
+    }
+}
+#details{
+    float: right;
+    left: 50%;
+    bottom: 100px;
+}
+.ul {
+position: fixed;
+display: inline;
+background-size: 25px;
+}
+img{
+    size: 10%;
+    width: 30%;
+    height: 30%;
+    bottom: 20px;
+    left:5;
+    right: 0;
+}
+li{
+    background-color: crimson;
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+</style>
+</head>
+<body>
+<div class="ul">
+<ul>
+    <li><a href="css.html">home</a></li>
+    <li><a href="scheme.html">scheme</a></li>
+    <li><a href="finance.html">finance</a></li>
+    <li><a href="#">terms</a></li>
+    <li><a href="images.html">images</a></li>
+    <li><a href="news.html"> news</a></li>
+    <li><a href="#">about</a></li>
+    <li><a href="contact.html">contact</a></li>
+</div>
+</ul>
+<figure>
+<img src="manibalan.jpg" alt="this format is not available in your device" title="founder of the company">
+<figcaption>FOUNDER OF THE COMPANY</figcaption>
+</figure>
+<div class="details">
+<h2>NAME:MANIBALAN.D</h2>
+<h2><abbr title="DATE OF BIRTH">DOB</abbr>:25:11:1993</h2>
+<h2>GENDER:MALE</h2>
+<h2>STATUS:SINGLE</h2>
+<h2>8660427614</h2>
+</div>
+<div class="money">
+    <img src="money.jpg" title="cash">
+</div>
+
+</body>
+</html>
